@@ -59,7 +59,7 @@
 
 .body{
   align-items: center;
-  height: 40vh;
+  height: 50vh;
 }
 
 
@@ -72,6 +72,8 @@
 
 .projects{
   display: flex;
+  flex-direction: column;
+  
   margin-top: 20px;
 
 }
@@ -79,6 +81,7 @@
 .project-card{
   display: flex;
   margin: 0 auto;
+  margin-bottom: 20px;
   width: 60%;
   align-items: center;
   border: 1px solid;

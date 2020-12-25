@@ -20,7 +20,7 @@ function Body(){
 
     return(
         <div className='body'>
-            <h3>Project Highlights</h3>
+            <h3 className='section-title'>Project Highlights</h3>
             <div className='projects'>
                 {/* <Card desc={p1}/> */}
                 {projects.map(project => <Card desc={project}/>)}

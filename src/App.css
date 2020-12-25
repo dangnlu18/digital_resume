@@ -6,8 +6,8 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
-  justify-content: space-around;
+  align-content: center;
+  justify-content: space-between;
   font-family: 'Oxygen', sans-serif;
   /* width: 80%; */
   /* margin: 0 auto; */
@@ -18,7 +18,7 @@
 
 .header{
   transform: rotate(90deg);
-  height: 33vh;
+  height: 25vh;
   background-image: url(./images/asoggetti-C4HO6MzEWrU-unsplash.jpg);
   transform: rotate(180deg);
   background-size: 100% 100%;
@@ -39,17 +39,20 @@
 .title{
   margin: 40px;
   padding: 5px;
+  
+  
 }
 
 .header-content h1{
   letter-spacing: 5px;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 5000;
   color: white;
   padding: 20px;
 }
 
 .header-content h2{
+  font-size: 1em;
   color: white;
 }
 
@@ -59,13 +62,20 @@
 
 .body{
   align-items: center;
-  height: 50vh;
+  height: 100vh;
+  background-color: white;
+}
+
+.section-title{
+  font-size: 3em;
+  font-weight: 500;
+  font-family: 'Audiowide', cursive;
+  margin: 100px;
 }
 
 
-
 .contact{
-  height: 30vh;
+  height: 20vh;
   background-image: url(./images/blake-richard-verdoorn-SbcqUQ4iEcI-unsplash.jpg);
   background-size: 100% 100%;
 }
@@ -81,10 +91,11 @@
 .project-card{
   display: flex;
   margin: 0 auto;
-  margin-bottom: 20px;
-  width: 60%;
+  margin-bottom: 30px;
+  width: 90%;
   align-items: center;
   border: 1px solid;
+  border-radius: 6px;
 }
 
 .project-card img{

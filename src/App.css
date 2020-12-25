@@ -69,3 +69,25 @@
   background-image: url(./images/blake-richard-verdoorn-SbcqUQ4iEcI-unsplash.jpg);
   background-size: 100% 100%;
 }
+
+.projects{
+  display: flex;
+
+}
+
+.project-card{
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  align-items: center;
+  border: 1px solid;
+}
+
+.project-card img{
+  width: 50%;
+  border-right: 1px solid;
+}
+
+.card-content{
+  align-self: center;
+}

@@ -1,6 +1,6 @@
-#root{
+/* #root{
   background-color: darkgrey;
-}
+} */
 
 .App {
   text-align: center;
@@ -9,9 +9,9 @@
   align-content: space-between;
   justify-content: space-around;
   font-family: 'Oxygen', sans-serif;
-  width: 80%;
-  margin: 0 auto;
-  background-color:lightgrey;
+  /* width: 80%; */
+  /* margin: 0 auto; */
+  /* background-color:lightgrey; */
 }
 
 
@@ -58,6 +58,7 @@
 }
 
 .body{
+  align-items: center;
   height: 40vh;
 }
 

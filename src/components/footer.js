@@ -3,7 +3,7 @@ import React from 'react'
 
 function Footer(){
     return(
-        <div id='contact'>
+        <div id='contact' className='contact'>
             <h3>Contact Me </h3>
             <div className='contact'>
 

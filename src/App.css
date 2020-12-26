@@ -59,8 +59,9 @@
 
 
 .body{
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 200vh;
   background-color: white;
 }
 
@@ -82,8 +83,8 @@
 
 .contact h3{
   position: absolute;
-  bottom: -30%;
-  right: 50%;
+  bottom: -55%;
+  right: 45%;
   font-size: 1.5em;
   color: white;
   font-family: 'Audiowide', cursive;
@@ -93,8 +94,8 @@
 .projects{
   display: flex;
   flex-direction: column;
-  
   margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
@@ -128,17 +129,22 @@
   justify-content: space-around;
 }
 
+.skills{
+  margin-bottom: 0px;
+  width: 80%;
+}
+
 .skills h3{
   margin-top: 25px;
   font-size: 2em;
+  font-family: 'Audiowide', cursive;
 }
 
 .logos{
-  margin-top: 45px;
-  height: 22vh;
+  height: 200px;
   display: flex;
   justify-content: space-around;
-  
+  align-items: center
 
 }
 
@@ -147,3 +153,12 @@
   border-radius: 1000px;
 }
 
+.about{
+  width: 90%;
+  
+}
+
+.about h3{
+  font-size: 2em;
+  font-family: 'Audiowide', cursive;
+}

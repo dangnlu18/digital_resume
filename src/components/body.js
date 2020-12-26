@@ -5,6 +5,7 @@ import {projects} from '../resources/projects'
 import pic from '../images/conways.png'
 
 import Skills from './skills'
+import About from './about'
 
 
 
@@ -21,6 +22,7 @@ function Body(){
                 {/* <Card desc={p1}/> */}
                 {projects.map(project => <a href={project.href} ><Card desc={project}/></a>)}
             </div>
+            <About />
         </div>
     )
 }

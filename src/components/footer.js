@@ -4,9 +4,15 @@ import React from 'react'
 function Footer(){
     return(
         <div id='contact' className='contact'>
-            <h3>Contact Me </h3>
+            <h3 className='contact-title'>Contact Me </h3>
             <div className='contact'>
-
+                <form className='contact-form'>
+                    <div className='contact-info'>
+                        <input type='text' placeholder='name' />
+                        <input type='email' placeholder='email' />
+                    </div>
+                    <input className='contact-msg' type='text' placeholder='type in your message to me' />
+                </form>
             </div>
         </div>
     )

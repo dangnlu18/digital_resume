@@ -81,13 +81,17 @@
 
 }
 
-.contact h3{
-  position: absolute;
-  bottom: -55%;
-  right: 45%;
+.contact{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.contact-title{
   font-size: 1.5em;
   color: white;
   font-family: 'Audiowide', cursive;
+  margin: 10px 0px 10px;
 }
 
 
@@ -181,3 +185,9 @@
 .about-content{
   line-height: 2;
 }
+
+/* .contact-form{
+  position: absolute;
+  right: 40%;
+  bottom: -55%
+} */
